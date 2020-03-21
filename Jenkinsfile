@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'touch /var/builds/pippo.txt'
+                sh 'touch /var/www/node-builds/pippo.txt'
             }
         }
         stage('Deliver') {
